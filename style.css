@@ -89,5 +89,5 @@ p {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: red;
+  background:#1d1f2065;
 }
