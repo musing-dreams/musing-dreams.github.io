@@ -24,9 +24,34 @@ p {
   .main-body {
     display: flex;
     flex-direction: row;
+    padding: 1em;
+    margin: 0.5em;
   }
   .intro {
     max-width: 35vw;
+    margin: 0.5em 1.5em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    max-height: 25vh;
+  }
+  .article-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5em;
+  }
+}
+@media (min-width: 1300px) {
+  h1 {
+    text-align: center;
+  }
+  .main-body {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    margin: 0.5em;
+  }
+  .intro {
+    max-width: 20vw;
     margin: 0.5em 1.5em;
     padding: 0.5em;
     border-radius: 0.5em;
