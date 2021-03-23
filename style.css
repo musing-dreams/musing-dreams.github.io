@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(209, 209, 209);
+  padding: 1em;
+  margin: 0.5em;
+  font-size: 1.2em;
+  font-family: Bitter,serif;
+}
+p {
+  margin: 0.5em;
+}
+.article-1{
+    background-color: rgb(187, 187, 187);
+    border-radius: 0.45em;
+    padding: 0.5em;
+}
