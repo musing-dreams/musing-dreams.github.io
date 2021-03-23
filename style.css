@@ -12,14 +12,17 @@ body {
   font-size: 1.1em;
   font-family: Bitter, serif;
 }
-.border{
+.heading-border {
   padding: 0.25em;
   background-color: var(--main-hd-color);
   border-radius: 0.5em;
 }
 
-p {
-  margin: 0.5em;
+p,
+h1,
+h2,
+h3 {
+  margin: 1em 0.25em;
 }
 .main-heading {
   margin: 1em 0.5em 0.5em 0em;
@@ -33,6 +36,11 @@ p {
   box-shadow: 2px 2px 10px var(--short-font-color-alpha);
 }
 @media (min-width: 800px) {
+  .about-border {
+    padding: 0.25em;
+    background-color: var(--main-hd-color);
+    border-radius: 0.5em;
+  }
   h1 {
     text-align: center;
   }
@@ -56,21 +64,26 @@ p {
   }
 }
 @media (min-width: 1300px) {
+  .about-border {
+    padding: 0.25em;
+    background-color: var(--main-hd-color);
+    border-radius: 0.5em;
+  }
   h1 {
     text-align: center;
   }
   .main-body {
     display: flex;
     flex-direction: row;
-    padding: 1em;
-    margin: 0.5em;
+    padding: 1em 2em;
+    margin: 1em 2em;
   }
   .intro {
     max-width: 20vw;
     margin: 0.5em 1.5em;
     padding: 0.5em;
     border-radius: 0.5em;
-    max-height: 25vh;
+    max-height: 20vh;
   }
   .article-container {
     display: flex;
