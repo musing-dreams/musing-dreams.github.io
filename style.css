@@ -6,7 +6,7 @@ body {
   background: rgb(209, 209, 209);
   padding: 1em;
   margin: 0.5em;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-family: Bitter, serif;
 }
 p {
@@ -19,5 +19,5 @@ p {
   background-color: rgb(187, 187, 187);
   border-radius: 0.45em;
   padding: 0.5em;
-  margin: 0.5em;
+  margin: 0.75em 0;
 }
